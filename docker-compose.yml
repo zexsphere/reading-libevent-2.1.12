@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nginx:
+    image: libevent-env:latest
+    container_name: libevent
+    volumes:
+      - .:/code
+    tty: true
